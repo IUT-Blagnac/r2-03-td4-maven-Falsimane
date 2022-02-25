@@ -28,7 +28,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>HelloJava</mainClass>
+              <mainClass>JourSuivant</mainClass>
             </manifest>
           </archive>
         </configuration>

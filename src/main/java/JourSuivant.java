@@ -119,35 +119,37 @@ public class JourSuivant {
         }
     }
 
-    public static void principale() {
-        /* Déclaration des variables */
-        int[] date = new int[3] ;
+    public static void main(String[] args) {
+        
+     /* Déclaration des variables */
+     int[] date = new int[3] ;
 
-        /* -- Etape 1 -- */
-        /* Saisie d'une date */
-        // A vous :
-        saisieDate(date);
+     /* -- Etape 1 -- */
+     /* Saisie d'une date */
+     // A vous :
+     saisieDate(date);
 
-        /* -- Etape 2 -- */
-        /* Vérification de la date saisie */
-        // A vous
-        dateValide(date);
+     /* -- Etape 2 -- */
+     /* Vérification de la date saisie */
+     // A vous
+     dateValide(date);
 
-        /* -- Etape 3 -- */
-        if (dateValide(date)) {
-            /* Calcul du jour suivant */
-            /* Affichage du jour suivant */
-            // A vous
-            jourSuivant(date, date);
-            System.out.println("Demain nous serons le " + date[0] + "/" 
-                + date[1] + "/" + date[2]);
+     /* -- Etape 3 -- */
+     if (dateValide(date)) {
+         /* Calcul du jour suivant */
+         /* Affichage du jour suivant */
+         // A vous
+         jourSuivant(date, date);
+         System.out.println("Demain nous serons le " + date[0] + "/" 
+             + date[1] + "/" + date[2]);
 
-        } else {
-            System.out.println("La date du "
-                + date[0] + "/" + date[1] + "/" + date[2]
-                + " n'est pas une date valide.");
-        }
-    }
+     } else {
+         System.out.println("La date du "
+             + date[0] + "/" + date[1] + "/" + date[2]
+             + " n'est pas une date valide.");
+     }
+ }
+       
 
 }
 
