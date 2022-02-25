@@ -13,7 +13,7 @@
     {
       "name": "Javadoc",
       "setup": "",
-      "run": "mvn javadoc",
+      "run": "mvn javadoc:javadoc",
       "input": "",
       "output": "",
       "comparison": "included",
