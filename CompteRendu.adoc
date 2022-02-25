@@ -1,0 +1,17 @@
+= Compiler et construire ses applications avec maven
+Thomas Falsimagne <falsimagne.thomas@gmail.com>
+v1, 2022-02-25 : Compte Rendu - Commandes 
+
+== Compte rendu pour synthétiser les différentes commandes :
+
+=== Commandes de base : 
+    . mvn clean
+    . mvn compile
+    . mvn package
+
+=== Génération de la javadoc : 
+    . mvn site 
+
+=== Exécuter le programme :
+    . java -jar target/tp_qualite-1.0.jar
+
